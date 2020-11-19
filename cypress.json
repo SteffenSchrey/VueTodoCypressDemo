@@ -1,5 +1,6 @@
 {
   "pluginsFile": "tests/e2e/plugins/index.js",
+  "supportFile": "tests/e2e/support/index.ts",
   "screenshotsFolder": "tests/e2e/screenshots",
   "integrationFolder": "tests/e2e/integration",
   "videosFolder": "tests/e2e/videos",

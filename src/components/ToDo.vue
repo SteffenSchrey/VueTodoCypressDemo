@@ -58,11 +58,12 @@
                     <v-list-item v-for="(todo, i) in todos" :key="i">
                       <template>
                         <v-list-item-action>
-                          <v-checkbox v-model="todo.done"></v-checkbox>
+                          <v-checkbox v-model="todo.done" data-cy="checkTodo"></v-checkbox>
                         </v-list-item-action>
 
                         <v-list-item-content>
                           <v-list-item-title
+                            data-cy="todoText"
                             :class="{
                               done: todo.done,
                             }"
@@ -70,7 +71,7 @@
                           >
                         </v-list-item-content>
                         <v-btn fab ripple small color="red" v-if="todo.done" @click="removeTodo(i)">
-                          <v-icon class="white--text">mdi-close</v-icon>
+                          <v-icon data-cy="deleteTodoButton" class="white--text">mdi-close</v-icon>
                         </v-btn>
                       </template>
                     </v-list-item>
