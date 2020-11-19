@@ -1,0 +1,43 @@
+[
+  {
+    "description": "  App Homepage",
+    "keyword": "Feature",
+    "name": "App Home",
+    "line": 1,
+    "id": "app-home",
+    "tags": [],
+    "uri": "App_Home.feature",
+    "elements": [
+      {
+        "id": "app-home;smoke-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Smoke test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the home page",
+            "result": {
+              "status": "passed",
+              "duration": 1253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "The page loads",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
