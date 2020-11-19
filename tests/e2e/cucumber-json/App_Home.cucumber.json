@@ -23,7 +23,7 @@
             "name": "I open the home page",
             "result": {
               "status": "passed",
-              "duration": 1253000000
+              "duration": 4260000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "The page loads",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 20000000
             }
           }
         ]
